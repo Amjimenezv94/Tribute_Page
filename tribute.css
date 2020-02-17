@@ -1,0 +1,70 @@
+html{
+    background-color: black;
+    color: #ffffff
+    
+}
+
+
+#main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: absolute;
+    padding: 0px 0px 5px 0px;
+  }
+  
+  #title{
+    background: linear-gradient(180deg, #c0c0c0, #000000);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  #img-div{
+    border-left: 5px;
+    border-right: 5px;
+    margin: 0px 120px;
+    border-radius: 100%;
+    padding: 15px;
+  }
+  
+/* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+User Story #9: The img element should be centered within its parent element.*/
+  #image{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 0 0 0 10px #ffffff;
+  }
+  
+  blockquote{
+    font-style: italic;
+  }
+  
+  ul{
+    max-width:700px;
+    margin:0 auto;
+    text-align:left;
+  }
+  
+  li{
+    margin: 10px;
+  }
+  
+ footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: absolute;
+    padding: 5px 0px 5px 0px;
+ }
+ 
+ #tribute-info{
+    text-align: center;
+  }
+
+
+  
