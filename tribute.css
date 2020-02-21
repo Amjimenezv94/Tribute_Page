@@ -21,25 +21,40 @@ html{
   
   #img-div{
     border-left: 5px;
-    border-right: 5px;
-    margin: 0px 120px;
+    border-right: 5px;    
     border-radius: 100%;
-    padding: 15px;
+    width: auto;
+    padding: 10px;
+    margin: 0px 12px;
+
   }
   
 /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 User Story #9: The img element should be centered within its parent element.*/
   #image{
-    width: 100%;
     height: auto;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     border-color: black;
     border-width: 10px;
     box-shadow: 0 0 0 10px #ffffff;
-  }
+    text-align: center;
+    margin:0 25% 0 25%;
+    padding: 0.5% 8% 0.5% 8%;
+    justify-content: center;
+
+    }
+
+  .image__inside {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    margin:0.5% 8% 0.5% -0.8%;
+    justify-content: center;
+    padding: 0.5% 8% 0.5% 8%;
+
+    }
   
   blockquote{
     font-style: italic;
